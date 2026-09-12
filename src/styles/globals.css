@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+/* Class-based dark mode: toggle `.dark` on <html> instead of following prefers-color-scheme. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom breakpoint scale (docs/design/RESPONSIVE.md) — overrides Tailwind's defaults,
+   which use the same names for different pixel values. */
+@theme {
+  --breakpoint-sm: 22.5rem; /* 360px */
+  --breakpoint-md: 40rem; /* 640px */
+  --breakpoint-lg: 48rem; /* 768px */
+  --breakpoint-xl: 64rem; /* 1024px */
+  --breakpoint-2xl: 80rem; /* 1280px */
+  --breakpoint-3xl: 96rem; /* 1536px */
+
+  --radius: 10px; /* shape-consistency lock: one radius for buttons/cards/inputs/modals */
+}
+
+/* Design tokens (docs/design/DESIGN-SYSTEM.md). Values are the doc's recommended starting
+   palette (Terracotta + Slate), not yet signed off — swap here once finalized. */
+:root {
+  --color-primary: #b5502f;
+  --color-secondary: #64748b;
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text-primary: #18181b;
+  --color-text-secondary: #3f3f46;
+  --color-text-muted: #71717a;
+  --color-border: #e4e4e7;
+  --color-success: #4d7c5f;
+  --color-error: #b3403a;
+  --color-warning: #b8873a;
+}
+
+/* Dark mode is designed, not inverted (docs/design/DESIGN-SYSTEM.md, G7) — off-black/off-white,
+   accent stays recognizable. */
+.dark {
+  --color-primary: #d97757;
+  --color-secondary: #94a3b8;
+  --color-background: #101114;
+  --color-surface: #18191d;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #d4d4d8;
+  --color-text-muted: #a1a1aa;
+  --color-border: #2c2d32;
+  --color-success: #6fa383;
+  --color-error: #d97771;
+  --color-warning: #d9a75c;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
