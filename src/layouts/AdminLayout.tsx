@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from 'react'
 import { Menu } from 'lucide-react'
 import { NavDrawer, ThemeToggle } from '@/components/layout'
-import { Sidebar, SidebarNav } from '@/components/layout/Sidebar'
+import { Sidebar } from '@/components/layout/sidebar'
+import { SidebarNav } from '@/components/layout/sidebar-nav'
 
 export function AdminLayout({ children }: { children: ReactNode }) {
   const [drawerOpen, setDrawerOpen] = useState(false)

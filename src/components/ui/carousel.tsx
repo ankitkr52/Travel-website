@@ -45,7 +45,7 @@ export function Carousel({
   }, [items.length])
 
   useEffect(() => {
-    if (!autoPlay) return
+    if (!autoPlay || items.length === 0) return
     const id = setInterval(() => scrollToIndex((active + 1) % items.length), interval)
     return () => clearInterval(id)
   }, [autoPlay, active, items.length, interval])

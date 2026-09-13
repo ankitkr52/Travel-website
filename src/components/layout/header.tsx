@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { Menu } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '@/components/ui'
-import { ThemeToggle } from './ThemeToggle'
-import { NavDrawer } from './NavDrawer'
+import { ThemeToggle } from './theme-toggle'
+import { NavDrawer } from './nav-drawer'
 
 const NAV_LINKS = [
   { label: 'Destinations', href: '/destinations' },

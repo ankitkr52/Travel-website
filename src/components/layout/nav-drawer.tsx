@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { X } from 'lucide-react'
+import { Overlay } from '@/components/ui/overlay'
 
 export interface NavDrawerProps {
   isOpen: boolean
@@ -19,15 +20,7 @@ export function NavDrawer({ isOpen, onClose, title, children }: NavDrawerProps) 
       <AnimatePresence>
         {isOpen && (
           <Dialog.Portal forceMount>
-            <Dialog.Overlay asChild forceMount>
-              <motion.div
-                className="fixed inset-0 z-50 bg-black/50"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: reduceMotion ? 0 : 0.2 }}
-              />
-            </Dialog.Overlay>
+            <Overlay />
             <Dialog.Content asChild forceMount>
               <motion.div
                 className="fixed inset-y-0 right-0 z-50 flex w-full max-w-xs flex-col bg-surface p-6 shadow-lg outline-none"

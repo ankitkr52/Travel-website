@@ -3,6 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { X } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { Overlay } from './overlay'
 
 export interface ModalProps {
   isOpen: boolean
@@ -26,15 +27,7 @@ export function Modal({ isOpen, onClose, title, size = 'md', children }: ModalPr
       <AnimatePresence>
         {isOpen && (
           <Dialog.Portal forceMount>
-            <Dialog.Overlay asChild forceMount>
-              <motion.div
-                className="fixed inset-0 z-50 bg-black/50"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: reduceMotion ? 0 : 0.2 }}
-              />
-            </Dialog.Overlay>
+            <Overlay />
             <Dialog.Content asChild forceMount>
               <motion.div
                 role="dialog"
