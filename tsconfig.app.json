@@ -25,6 +25,8 @@
       "@/*": ["./src/*"]
     },
 
+    "resolveJsonModule": true,
+
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,

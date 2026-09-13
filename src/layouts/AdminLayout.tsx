@@ -1,10 +1,10 @@
-import { useState, type ReactNode } from 'react'
+import { useState } from 'react'
 import { Menu } from 'lucide-react'
-import { NavDrawer, ThemeToggle } from '@/components/layout'
+import { AnimatedOutlet, NavDrawer, ThemeToggle } from '@/components/layout'
 import { Sidebar } from '@/components/layout/sidebar'
 import { SidebarNav } from '@/components/layout/sidebar-nav'
 
-export function AdminLayout({ children }: { children: ReactNode }) {
+export function AdminLayout() {
   const [drawerOpen, setDrawerOpen] = useState(false)
 
   return (
@@ -29,7 +29,9 @@ export function AdminLayout({ children }: { children: ReactNode }) {
           </div>
         </header>
 
-        <main className="flex-1 p-4 md:p-8">{children}</main>
+        <main className="flex-1 p-4 md:p-8">
+          <AnimatedOutlet />
+        </main>
       </div>
 
       <NavDrawer isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} title="Travelnest Admin">

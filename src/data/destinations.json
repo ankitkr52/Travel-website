@@ -1,0 +1,212 @@
+[
+  {
+    "id": "dest-01",
+    "slug": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "region": "North India",
+    "shortDescription": "The Pink City of palaces, forts, and bazaars.",
+    "description": "Jaipur, the capital of Rajasthan, is famed for its rose-hued old city, majestic forts like Amber and Nahargarh, and the intricate Hawa Mahal. Wander bustling bazaars for block-print textiles and gemstones, and taste royal Rajasthani cuisine in centuries-old havelis.",
+    "heroImage": "https://picsum.photos/seed/jaipur-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/jaipur-1/800/600",
+      "https://picsum.photos/seed/jaipur-2/800/600",
+      "https://picsum.photos/seed/jaipur-3/800/600"
+    ],
+    "rating": 4.7,
+    "reviewCount": 312,
+    "startingPrice": 8500,
+    "bestTimeToVisit": "October to March",
+    "tags": ["heritage", "forts", "shopping"],
+    "highlights": ["Amber Fort", "Hawa Mahal", "City Palace", "Jal Mahal"]
+  },
+  {
+    "id": "dest-02",
+    "slug": "goa",
+    "name": "Goa",
+    "state": "Goa",
+    "region": "West India",
+    "shortDescription": "Sun-soaked beaches, Portuguese charm, and nightlife.",
+    "description": "Goa blends golden beaches with whitewashed churches, Portuguese-era architecture, and a laid-back beach-shack culture. From the lively strips of Baga and Calangute to the quiet shores of Palolem, there's a coastline for every kind of traveler.",
+    "heroImage": "https://picsum.photos/seed/goa-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/goa-1/800/600",
+      "https://picsum.photos/seed/goa-2/800/600",
+      "https://picsum.photos/seed/goa-3/800/600"
+    ],
+    "rating": 4.6,
+    "reviewCount": 498,
+    "startingPrice": 7000,
+    "bestTimeToVisit": "November to February",
+    "tags": ["beaches", "nightlife", "relaxation"],
+    "highlights": ["Baga Beach", "Basilica of Bom Jesus", "Fort Aguada", "Anjuna Flea Market"]
+  },
+  {
+    "id": "dest-03",
+    "slug": "kerala-backwaters",
+    "name": "Kerala Backwaters",
+    "state": "Kerala",
+    "region": "South India",
+    "shortDescription": "Serene houseboat cruises through palm-fringed canals.",
+    "description": "The backwaters of Alleppey and Kumarakom offer a tranquil network of lagoons, canals, and lakes best explored aboard a traditional kettuvallam houseboat, drifting past coconut groves and paddy fields.",
+    "heroImage": "https://picsum.photos/seed/kerala-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/kerala-1/800/600",
+      "https://picsum.photos/seed/kerala-2/800/600",
+      "https://picsum.photos/seed/kerala-3/800/600"
+    ],
+    "rating": 4.8,
+    "reviewCount": 276,
+    "startingPrice": 9500,
+    "bestTimeToVisit": "September to March",
+    "tags": ["backwaters", "nature", "houseboat"],
+    "highlights": ["Alleppey Houseboats", "Kumarakom Bird Sanctuary", "Vembanad Lake"]
+  },
+  {
+    "id": "dest-04",
+    "slug": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "region": "North India",
+    "shortDescription": "Snow-capped peaks and adventure sports in the Himalayas.",
+    "description": "Manali is a Himalayan hill town known for its pine forests, snow-clad valleys, and adrenaline-charged activities like paragliding, river rafting, and skiing at nearby Solang Valley.",
+    "heroImage": "https://picsum.photos/seed/manali-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/manali-1/800/600",
+      "https://picsum.photos/seed/manali-2/800/600",
+      "https://picsum.photos/seed/manali-3/800/600"
+    ],
+    "rating": 4.6,
+    "reviewCount": 389,
+    "startingPrice": 8000,
+    "bestTimeToVisit": "March to June, December to February",
+    "tags": ["mountains", "adventure", "snow"],
+    "highlights": ["Solang Valley", "Rohtang Pass", "Hadimba Temple", "Old Manali"]
+  },
+  {
+    "id": "dest-05",
+    "slug": "rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North India",
+    "shortDescription": "Yoga capital of the world on the banks of the Ganges.",
+    "description": "Rishikesh draws seekers and thrill-chasers alike — ashrams and yoga retreats line the Ganges, while white-water rafting and cliff jumping fuel the town's adventure side.",
+    "heroImage": "https://picsum.photos/seed/rishikesh-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/rishikesh-1/800/600",
+      "https://picsum.photos/seed/rishikesh-2/800/600",
+      "https://picsum.photos/seed/rishikesh-3/800/600"
+    ],
+    "rating": 4.7,
+    "reviewCount": 204,
+    "startingPrice": 6500,
+    "bestTimeToVisit": "September to April",
+    "tags": ["yoga", "spiritual", "rafting"],
+    "highlights": ["Laxman Jhula", "Triveni Ghat", "Beatles Ashram", "River Rafting"]
+  },
+  {
+    "id": "dest-06",
+    "slug": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "North India",
+    "shortDescription": "The City of Lakes, romantic palaces reflected in still water.",
+    "description": "Udaipur's marble palaces, glittering lakes, and cobbled old-town streets have earned it the title of the most romantic city in India. Boat rides on Lake Pichola at sunset are a signature experience.",
+    "heroImage": "https://picsum.photos/seed/udaipur-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/udaipur-1/800/600",
+      "https://picsum.photos/seed/udaipur-2/800/600",
+      "https://picsum.photos/seed/udaipur-3/800/600"
+    ],
+    "rating": 4.8,
+    "reviewCount": 341,
+    "startingPrice": 9000,
+    "bestTimeToVisit": "September to March",
+    "tags": ["lakes", "romantic", "heritage"],
+    "highlights": ["Lake Pichola", "City Palace", "Jag Mandir", "Saheliyon Ki Bari"]
+  },
+  {
+    "id": "dest-07",
+    "slug": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "region": "North India",
+    "shortDescription": "India's spiritual heart on the banks of the sacred Ganges.",
+    "description": "One of the world's oldest continuously inhabited cities, Varanasi's ghats come alive at dawn with rituals and at dusk with the Ganga Aarti — an unforgettable sensory immersion into living tradition.",
+    "heroImage": "https://picsum.photos/seed/varanasi-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/varanasi-1/800/600",
+      "https://picsum.photos/seed/varanasi-2/800/600",
+      "https://picsum.photos/seed/varanasi-3/800/600"
+    ],
+    "rating": 4.5,
+    "reviewCount": 258,
+    "startingPrice": 6000,
+    "bestTimeToVisit": "October to March",
+    "tags": ["spiritual", "heritage", "ghats"],
+    "highlights": ["Dashashwamedh Ghat", "Ganga Aarti", "Kashi Vishwanath Temple", "Sarnath"]
+  },
+  {
+    "id": "dest-08",
+    "slug": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "state": "Ladakh",
+    "region": "North India",
+    "shortDescription": "High-altitude desert of monasteries and mountain passes.",
+    "description": "Ladakh's stark, high-altitude landscapes — turquoise lakes, ancient Buddhist monasteries, and some of the world's highest motorable passes — make it one of India's most awe-inspiring road-trip destinations.",
+    "heroImage": "https://picsum.photos/seed/ladakh-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/ladakh-1/800/600",
+      "https://picsum.photos/seed/ladakh-2/800/600",
+      "https://picsum.photos/seed/ladakh-3/800/600"
+    ],
+    "rating": 4.9,
+    "reviewCount": 187,
+    "startingPrice": 14000,
+    "bestTimeToVisit": "May to September",
+    "tags": ["mountains", "adventure", "monasteries"],
+    "highlights": ["Pangong Lake", "Nubra Valley", "Khardung La", "Thiksey Monastery"]
+  },
+  {
+    "id": "dest-09",
+    "slug": "andaman-islands",
+    "name": "Andaman Islands",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Islands",
+    "shortDescription": "Turquoise waters, coral reefs, and pristine beaches.",
+    "description": "The Andaman archipelago offers some of India's clearest waters for snorkeling and scuba diving, alongside colonial history at the Cellular Jail and postcard-perfect beaches at Havelock and Neil Island.",
+    "heroImage": "https://picsum.photos/seed/andaman-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/andaman-1/800/600",
+      "https://picsum.photos/seed/andaman-2/800/600",
+      "https://picsum.photos/seed/andaman-3/800/600"
+    ],
+    "rating": 4.7,
+    "reviewCount": 163,
+    "startingPrice": 13500,
+    "bestTimeToVisit": "November to April",
+    "tags": ["beaches", "scuba diving", "islands"],
+    "highlights": ["Radhanagar Beach", "Cellular Jail", "Elephant Beach", "Neil Island"]
+  },
+  {
+    "id": "dest-10",
+    "slug": "darjeeling",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "Northeast India",
+    "shortDescription": "Misty tea gardens and Himalayan sunrise views.",
+    "description": "Darjeeling's terraced tea estates, toy train rides, and sweeping views of Kanchenjunga make it a cool-weather retreat in the Eastern Himalayas, best known for its prized first-flush tea.",
+    "heroImage": "https://picsum.photos/seed/darjeeling-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/darjeeling-1/800/600",
+      "https://picsum.photos/seed/darjeeling-2/800/600",
+      "https://picsum.photos/seed/darjeeling-3/800/600"
+    ],
+    "rating": 4.6,
+    "reviewCount": 142,
+    "startingPrice": 7500,
+    "bestTimeToVisit": "October to June",
+    "tags": ["tea gardens", "mountains", "toy train"],
+    "highlights": ["Tiger Hill", "Darjeeling Himalayan Railway", "Happy Valley Tea Estate"]
+  }
+]

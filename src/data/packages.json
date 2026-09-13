@@ -1,0 +1,291 @@
+[
+  {
+    "id": "pkg-01",
+    "slug": "royal-rajasthan-heritage-tour",
+    "name": "Royal Rajasthan Heritage Tour",
+    "destinationId": "dest-01",
+    "category": "Heritage",
+    "shortDescription": "Palaces, forts, and royal cuisine across Jaipur and Udaipur.",
+    "description": "A 6-day journey through Rajasthan's most iconic palaces and forts, with guided heritage walks, a sunset boat ride on Lake Pichola, and a traditional Rajasthani thali dinner in a restored haveli.",
+    "heroImage": "https://picsum.photos/seed/pkg-rajasthan-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-rajasthan-1/800/600",
+      "https://picsum.photos/seed/pkg-rajasthan-2/800/600"
+    ],
+    "durationDays": 6,
+    "durationNights": 5,
+    "price": 32000,
+    "rating": 4.7,
+    "reviewCount": 96,
+    "maxGroupSize": 15,
+    "inclusions": ["Hotel stay", "Daily breakfast", "AC transport", "Guided tours", "Airport transfers"],
+    "exclusions": ["Flights", "Lunch and dinner (except Day 3)", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Jaipur", "description": "Airport pickup, evening at leisure at your hotel." },
+      { "day": 2, "title": "Jaipur City Tour", "description": "Amber Fort, City Palace, and Hawa Mahal." },
+      { "day": 3, "title": "Jaipur to Udaipur", "description": "Scenic drive, check-in, traditional thali dinner." },
+      { "day": 4, "title": "Udaipur Sightseeing", "description": "City Palace, Jagdish Temple, sunset boat ride on Lake Pichola." },
+      { "day": 5, "title": "Leisure Day", "description": "Optional Saheliyon Ki Bari visit and local bazaar shopping." },
+      { "day": 6, "title": "Departure", "description": "Transfer to airport." }
+    ]
+  },
+  {
+    "id": "pkg-02",
+    "slug": "goa-beach-bliss",
+    "name": "Goa Beach Bliss",
+    "destinationId": "dest-02",
+    "category": "Beach",
+    "shortDescription": "Sun, sand, and nightlife across North and South Goa.",
+    "description": "A relaxed 4-day beach getaway covering the lively shacks of North Goa and the quieter shores of the south, with a sunset cruise on the Mandovi River.",
+    "heroImage": "https://picsum.photos/seed/pkg-goa-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-goa-1/800/600",
+      "https://picsum.photos/seed/pkg-goa-2/800/600"
+    ],
+    "durationDays": 4,
+    "durationNights": 3,
+    "price": 18000,
+    "rating": 4.5,
+    "reviewCount": 154,
+    "maxGroupSize": 20,
+    "inclusions": ["Beach resort stay", "Daily breakfast", "Sunset cruise", "Airport transfers"],
+    "exclusions": ["Flights", "Water sports", "Alcohol"],
+    "itinerary": [
+      { "day": 1, "title": "Arrival & North Goa", "description": "Check-in, evening at Baga Beach." },
+      { "day": 2, "title": "Old Goa & Panaji", "description": "Basilica of Bom Jesus, Fontainhas quarter, Mandovi sunset cruise." },
+      { "day": 3, "title": "South Goa Beaches", "description": "Day trip to Palolem and Colva beaches." },
+      { "day": 4, "title": "Departure", "description": "Leisure morning, transfer to airport." }
+    ]
+  },
+  {
+    "id": "pkg-03",
+    "slug": "kerala-backwaters-retreat",
+    "name": "Kerala Backwaters Retreat",
+    "destinationId": "dest-03",
+    "category": "Nature",
+    "shortDescription": "Houseboat cruise and hill-station calm in God's Own Country.",
+    "description": "Cruise the Alleppey backwaters aboard a private houseboat, then unwind amid the tea-scented hills of Munnar on this 5-day South India escape.",
+    "heroImage": "https://picsum.photos/seed/pkg-kerala-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-kerala-1/800/600",
+      "https://picsum.photos/seed/pkg-kerala-2/800/600"
+    ],
+    "durationDays": 5,
+    "durationNights": 4,
+    "price": 27500,
+    "rating": 4.8,
+    "reviewCount": 88,
+    "maxGroupSize": 12,
+    "inclusions": ["Houseboat stay with meals", "Hotel stay in Munnar", "AC transport", "Airport transfers"],
+    "exclusions": ["Flights", "Ayurvedic spa treatments", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Kochi", "description": "Transfer to Alleppey, board houseboat." },
+      { "day": 2, "title": "Backwater Cruise", "description": "Full day cruising through canals and paddy fields." },
+      { "day": 3, "title": "Alleppey to Munnar", "description": "Scenic drive through spice plantations." },
+      { "day": 4, "title": "Munnar Sightseeing", "description": "Tea gardens, Eravikulam National Park, Mattupetty Dam." },
+      { "day": 5, "title": "Departure", "description": "Drive back to Kochi for departure." }
+    ]
+  },
+  {
+    "id": "pkg-04",
+    "slug": "manali-adventure-getaway",
+    "name": "Manali Adventure Getaway",
+    "destinationId": "dest-04",
+    "category": "Adventure",
+    "shortDescription": "Paragliding, rafting, and snow at Solang Valley.",
+    "description": "A 5-day Himalayan adventure combining Solang Valley activities, an excursion toward Rohtang Pass, and time to explore Old Manali's cafes and temples.",
+    "heroImage": "https://picsum.photos/seed/pkg-manali-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-manali-1/800/600",
+      "https://picsum.photos/seed/pkg-manali-2/800/600"
+    ],
+    "durationDays": 5,
+    "durationNights": 4,
+    "price": 21000,
+    "rating": 4.6,
+    "reviewCount": 121,
+    "maxGroupSize": 18,
+    "inclusions": ["Hotel stay", "Daily breakfast", "Adventure activity passes", "AC transport"],
+    "exclusions": ["Flights", "Rohtang permit fee", "Lunch and dinner"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Manali", "description": "Check-in, evening walk in Old Manali." },
+      { "day": 2, "title": "Solang Valley", "description": "Paragliding, zorbing, and cable car ride." },
+      { "day": 3, "title": "Rohtang Pass Excursion", "description": "Snow activities at the pass (subject to weather)." },
+      { "day": 4, "title": "Local Sightseeing", "description": "Hadimba Temple, Van Vihar, local markets." },
+      { "day": 5, "title": "Departure", "description": "Transfer to Bhuntar airport / bus stand." }
+    ]
+  },
+  {
+    "id": "pkg-05",
+    "slug": "rishikesh-yoga-and-rafting",
+    "name": "Rishikesh Yoga & Rafting",
+    "destinationId": "dest-05",
+    "category": "Wellness",
+    "shortDescription": "Morning yoga sessions and white-water rafting on the Ganges.",
+    "description": "A 4-day wellness-meets-adventure trip pairing sunrise yoga and meditation with Grade II-III rapids rafting and an evening at the Ganga Aarti.",
+    "heroImage": "https://picsum.photos/seed/pkg-rishikesh-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-rishikesh-1/800/600",
+      "https://picsum.photos/seed/pkg-rishikesh-2/800/600"
+    ],
+    "durationDays": 4,
+    "durationNights": 3,
+    "price": 15500,
+    "rating": 4.7,
+    "reviewCount": 73,
+    "maxGroupSize": 16,
+    "inclusions": ["Riverside camp/hotel stay", "Daily breakfast", "Rafting session", "Yoga sessions"],
+    "exclusions": ["Flights", "Lunch and dinner", "Bungee jumping"],
+    "itinerary": [
+      { "day": 1, "title": "Arrival", "description": "Check-in by the Ganges, evening Ganga Aarti at Triveni Ghat." },
+      { "day": 2, "title": "Rafting Day", "description": "16km white-water rafting stretch with cliff-jumping stop." },
+      { "day": 3, "title": "Yoga & Ashrams", "description": "Sunrise yoga session, visit to Beatles Ashram and Laxman Jhula." },
+      { "day": 4, "title": "Departure", "description": "Morning meditation, transfer to Dehradun airport." }
+    ]
+  },
+  {
+    "id": "pkg-06",
+    "slug": "varanasi-spiritual-sojourn",
+    "name": "Varanasi Spiritual Sojourn",
+    "destinationId": "dest-07",
+    "category": "Spiritual",
+    "shortDescription": "Ghats, temples, and the timeless Ganga Aarti.",
+    "description": "A 3-day immersion into Varanasi's spiritual rhythm — dawn boat rides past the ghats, temple visits, and an excursion to the Buddhist site of Sarnath.",
+    "heroImage": "https://picsum.photos/seed/pkg-varanasi-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-varanasi-1/800/600",
+      "https://picsum.photos/seed/pkg-varanasi-2/800/600"
+    ],
+    "durationDays": 3,
+    "durationNights": 2,
+    "price": 11000,
+    "rating": 4.5,
+    "reviewCount": 64,
+    "maxGroupSize": 20,
+    "inclusions": ["Hotel stay", "Daily breakfast", "Dawn boat ride", "Guided temple tours"],
+    "exclusions": ["Flights", "Lunch and dinner", "Donations at temples"],
+    "itinerary": [
+      { "day": 1, "title": "Arrival & Ganga Aarti", "description": "Check-in, evening Ganga Aarti at Dashashwamedh Ghat." },
+      { "day": 2, "title": "Dawn Boat Ride & Sarnath", "description": "Sunrise boat ride, Kashi Vishwanath Temple, Sarnath excursion." },
+      { "day": 3, "title": "Departure", "description": "Morning at leisure, transfer to airport." }
+    ]
+  },
+  {
+    "id": "pkg-07",
+    "slug": "ladakh-bike-expedition",
+    "name": "Ladakh Bike Expedition",
+    "destinationId": "dest-08",
+    "category": "Adventure",
+    "shortDescription": "Ride the world's highest motorable passes.",
+    "description": "A 7-day motorcycle expedition through Ladakh's dramatic high-altitude terrain, covering Khardung La, Nubra Valley's sand dunes, and the shimmering Pangong Lake.",
+    "heroImage": "https://picsum.photos/seed/pkg-ladakh-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-ladakh-1/800/600",
+      "https://picsum.photos/seed/pkg-ladakh-2/800/600"
+    ],
+    "durationDays": 7,
+    "durationNights": 6,
+    "price": 45000,
+    "rating": 4.9,
+    "reviewCount": 57,
+    "maxGroupSize": 10,
+    "inclusions": ["Motorcycle rental", "Fuel", "Hotel/camp stay", "All meals", "Mechanic support"],
+    "exclusions": ["Flights to Leh", "Riding gear", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Leh", "description": "Acclimatization day, local monastery visit." },
+      { "day": 2, "title": "Leh Local Ride", "description": "Shanti Stupa, Leh Palace, gear check." },
+      { "day": 3, "title": "Leh to Nubra Valley", "description": "Ride via Khardung La to Nubra's sand dunes." },
+      { "day": 4, "title": "Nubra Valley", "description": "Camel safari, Diskit Monastery." },
+      { "day": 5, "title": "Nubra to Pangong Lake", "description": "Ride via Shyok route to Pangong." },
+      { "day": 6, "title": "Pangong to Leh", "description": "Return ride via Chang La pass." },
+      { "day": 7, "title": "Departure", "description": "Transfer to Leh airport." }
+    ]
+  },
+  {
+    "id": "pkg-08",
+    "slug": "andaman-island-escape",
+    "name": "Andaman Island Escape",
+    "destinationId": "dest-09",
+    "category": "Beach",
+    "shortDescription": "Snorkeling, scuba, and beach hopping across the Andamans.",
+    "description": "A 5-day island-hopping escape covering Port Blair's colonial history, Havelock's Radhanagar Beach, and Neil Island's coral-fringed coves.",
+    "heroImage": "https://picsum.photos/seed/pkg-andaman-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-andaman-1/800/600",
+      "https://picsum.photos/seed/pkg-andaman-2/800/600"
+    ],
+    "durationDays": 5,
+    "durationNights": 4,
+    "price": 38000,
+    "rating": 4.7,
+    "reviewCount": 49,
+    "maxGroupSize": 14,
+    "inclusions": ["Resort stay", "Ferry transfers", "Daily breakfast", "One scuba session"],
+    "exclusions": ["Flights to Port Blair", "Lunch and dinner", "Additional water sports"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Port Blair", "description": "Cellular Jail visit, light and sound show." },
+      { "day": 2, "title": "Port Blair to Havelock", "description": "Ferry transfer, evening at Radhanagar Beach." },
+      { "day": 3, "title": "Havelock Watersports", "description": "Scuba diving session, Elephant Beach visit." },
+      { "day": 4, "title": "Neil Island", "description": "Ferry to Neil Island, Bharatpur and Laxmanpur beaches." },
+      { "day": 5, "title": "Departure", "description": "Ferry back to Port Blair, transfer to airport." }
+    ]
+  },
+  {
+    "id": "pkg-09",
+    "slug": "darjeeling-tea-trails",
+    "name": "Darjeeling Tea Trails",
+    "destinationId": "dest-10",
+    "category": "Nature",
+    "shortDescription": "Toy train rides and sunrise views of Kanchenjunga.",
+    "description": "A 4-day escape through Darjeeling's misty tea estates, with a heritage toy train ride and an early-morning trip to Tiger Hill for sunrise over the Himalayas.",
+    "heroImage": "https://picsum.photos/seed/pkg-darjeeling-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-darjeeling-1/800/600",
+      "https://picsum.photos/seed/pkg-darjeeling-2/800/600"
+    ],
+    "durationDays": 4,
+    "durationNights": 3,
+    "price": 19500,
+    "rating": 4.6,
+    "reviewCount": 41,
+    "maxGroupSize": 15,
+    "inclusions": ["Hotel stay", "Daily breakfast", "Toy train ride", "Tea estate tour"],
+    "exclusions": ["Flights", "Lunch and dinner", "Personal expenses"],
+    "itinerary": [
+      { "day": 1, "title": "Arrival", "description": "Check-in, evening at Mall Road." },
+      { "day": 2, "title": "Tiger Hill Sunrise", "description": "Pre-dawn excursion to Tiger Hill, toy train ride." },
+      { "day": 3, "title": "Tea Estate Tour", "description": "Happy Valley Tea Estate, Padmaja Naidu Zoo." },
+      { "day": 4, "title": "Departure", "description": "Transfer to Bagdogra airport." }
+    ]
+  },
+  {
+    "id": "pkg-10",
+    "slug": "golden-triangle-classic",
+    "name": "Golden Triangle Classic",
+    "destinationId": "dest-01",
+    "category": "Heritage",
+    "shortDescription": "Delhi, Agra, and Jaipur — India's essential first trip.",
+    "description": "The definitive introduction to India: Mughal monuments in Delhi and Agra, capped with Jaipur's forts and palaces, on a comfortable 6-day circuit.",
+    "heroImage": "https://picsum.photos/seed/pkg-triangle-hero/1200/800",
+    "images": [
+      "https://picsum.photos/seed/pkg-triangle-1/800/600",
+      "https://picsum.photos/seed/pkg-triangle-2/800/600"
+    ],
+    "durationDays": 6,
+    "durationNights": 5,
+    "price": 29500,
+    "rating": 4.8,
+    "reviewCount": 203,
+    "maxGroupSize": 20,
+    "inclusions": ["Hotel stay", "Daily breakfast", "AC transport", "Guided monument tours"],
+    "exclusions": ["Flights", "Lunch and dinner", "Monument entry fees for foreigners"],
+    "itinerary": [
+      { "day": 1, "title": "Arrive in Delhi", "description": "Check-in, evening at India Gate and Connaught Place." },
+      { "day": 2, "title": "Delhi Sightseeing", "description": "Red Fort, Qutub Minar, Humayun's Tomb." },
+      { "day": 3, "title": "Delhi to Agra", "description": "Drive to Agra, sunset visit to Taj Mahal viewpoint." },
+      { "day": 4, "title": "Taj Mahal & Agra Fort", "description": "Sunrise Taj Mahal visit, Agra Fort, drive to Jaipur." },
+      { "day": 5, "title": "Jaipur Sightseeing", "description": "Amber Fort, City Palace, Hawa Mahal." },
+      { "day": 6, "title": "Departure", "description": "Transfer to Jaipur airport." }
+    ]
+  }
+]

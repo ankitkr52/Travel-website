@@ -1,3 +1,4 @@
+export * from './animated-outlet'
 export * from './footer'
 export * from './header'
 export * from './nav-drawer'

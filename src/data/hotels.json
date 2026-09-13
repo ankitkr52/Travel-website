@@ -1,0 +1,212 @@
+[
+  {
+    "id": "htl-01",
+    "slug": "the-pink-haveli-jaipur",
+    "name": "The Pink Haveli",
+    "destinationId": "dest-01",
+    "city": "Jaipur",
+    "address": "Amer Road, Jaipur, Rajasthan",
+    "shortDescription": "A restored haveli with courtyard dining and rooftop city views.",
+    "description": "The Pink Haveli blends traditional Rajasthani architecture with modern comforts, set around a central courtyard just minutes from Amber Fort. Enjoy rooftop dining overlooking the Aravalli hills.",
+    "heroImage": "https://picsum.photos/seed/htl-jaipur-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-jaipur-1/800/600", "https://picsum.photos/seed/htl-jaipur-2/800/600"],
+    "starRating": 4,
+    "rating": 4.6,
+    "reviewCount": 218,
+    "pricePerNight": 4500,
+    "amenities": ["Free WiFi", "Rooftop restaurant", "Pool", "Airport shuttle", "Spa"],
+    "roomTypes": [
+      { "id": "rt-01", "name": "Deluxe Room", "pricePerNight": 4500, "capacity": 2, "amenities": ["AC", "City view"] },
+      { "id": "rt-02", "name": "Haveli Suite", "pricePerNight": 7200, "capacity": 3, "amenities": ["AC", "Courtyard view", "Bathtub"] }
+    ]
+  },
+  {
+    "id": "htl-02",
+    "slug": "palm-grove-resort-goa",
+    "name": "Palm Grove Resort",
+    "destinationId": "dest-02",
+    "city": "Calangute, Goa",
+    "address": "Beach Road, Calangute, Goa",
+    "shortDescription": "Beachfront resort with palm-shaded pool and shack-style dining.",
+    "description": "Palm Grove Resort sits steps from Calangute Beach, offering a lagoon-style pool, beach bonfire nights, and easy access to Goa's northern nightlife strip.",
+    "heroImage": "https://picsum.photos/seed/htl-goa-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-goa-1/800/600", "https://picsum.photos/seed/htl-goa-2/800/600"],
+    "starRating": 4,
+    "rating": 4.4,
+    "reviewCount": 356,
+    "pricePerNight": 5200,
+    "amenities": ["Free WiFi", "Beach access", "Pool", "Bar", "Water sports desk"],
+    "roomTypes": [
+      { "id": "rt-03", "name": "Garden View Room", "pricePerNight": 5200, "capacity": 2, "amenities": ["AC", "Balcony"] },
+      { "id": "rt-04", "name": "Sea View Cottage", "pricePerNight": 8000, "capacity": 4, "amenities": ["AC", "Sea view", "Mini bar"] }
+    ]
+  },
+  {
+    "id": "htl-03",
+    "slug": "spice-hills-retreat-munnar",
+    "name": "Spice Hills Retreat",
+    "destinationId": "dest-03",
+    "city": "Munnar, Kerala",
+    "address": "Tea Estate Road, Munnar, Kerala",
+    "shortDescription": "Plantation-view rooms nestled among Munnar's tea gardens.",
+    "description": "Spice Hills Retreat is surrounded by rolling tea plantations, with a spa specializing in Ayurvedic treatments and guided nature walks through the estate.",
+    "heroImage": "https://picsum.photos/seed/htl-munnar-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-munnar-1/800/600", "https://picsum.photos/seed/htl-munnar-2/800/600"],
+    "starRating": 5,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "pricePerNight": 6800,
+    "amenities": ["Free WiFi", "Ayurvedic spa", "Restaurant", "Nature walks", "Bonfire"],
+    "roomTypes": [
+      { "id": "rt-05", "name": "Plantation View Room", "pricePerNight": 6800, "capacity": 2, "amenities": ["Heater", "Balcony"] },
+      { "id": "rt-06", "name": "Valley Cottage", "pricePerNight": 9500, "capacity": 3, "amenities": ["Heater", "Fireplace", "Valley view"] }
+    ]
+  },
+  {
+    "id": "htl-04",
+    "slug": "snowline-chalet-manali",
+    "name": "Snowline Chalet",
+    "destinationId": "dest-04",
+    "city": "Manali, Himachal Pradesh",
+    "address": "Old Manali Road, Manali, Himachal Pradesh",
+    "shortDescription": "Wood-cabin chalet with mountain views and a bonfire deck.",
+    "description": "Snowline Chalet offers cosy wood-panelled rooms with views of the Pir Panjal range, a riverside cafe, and easy access to Old Manali's cafes and Solang Valley's adventure sports.",
+    "heroImage": "https://picsum.photos/seed/htl-manali-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-manali-1/800/600", "https://picsum.photos/seed/htl-manali-2/800/600"],
+    "starRating": 4,
+    "rating": 4.5,
+    "reviewCount": 176,
+    "pricePerNight": 4200,
+    "amenities": ["Free WiFi", "Bonfire deck", "Mountain view", "Cafe", "Heater"],
+    "roomTypes": [
+      { "id": "rt-07", "name": "Mountain View Room", "pricePerNight": 4200, "capacity": 2, "amenities": ["Heater", "Mountain view"] },
+      { "id": "rt-08", "name": "Family Chalet", "pricePerNight": 6500, "capacity": 4, "amenities": ["Heater", "Living area", "Fireplace"] }
+    ]
+  },
+  {
+    "id": "htl-05",
+    "slug": "ganga-view-eco-lodge-rishikesh",
+    "name": "Ganga View Eco Lodge",
+    "destinationId": "dest-05",
+    "city": "Rishikesh, Uttarakhand",
+    "address": "Laxman Jhula Road, Rishikesh, Uttarakhand",
+    "shortDescription": "Riverside eco-lodge with yoga deck overlooking the Ganges.",
+    "description": "Ganga View Eco Lodge offers simple, sustainable riverside rooms and a rooftop yoga deck with unobstructed views of the Ganges and the surrounding forested hills.",
+    "heroImage": "https://picsum.photos/seed/htl-rishikesh-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-rishikesh-1/800/600", "https://picsum.photos/seed/htl-rishikesh-2/800/600"],
+    "starRating": 3,
+    "rating": 4.5,
+    "reviewCount": 98,
+    "pricePerNight": 3200,
+    "amenities": ["Free WiFi", "Yoga deck", "River view", "Vegetarian cafe"],
+    "roomTypes": [
+      { "id": "rt-09", "name": "River View Room", "pricePerNight": 3200, "capacity": 2, "amenities": ["Fan", "River view"] },
+      { "id": "rt-10", "name": "Deluxe Cottage", "pricePerNight": 4800, "capacity": 3, "amenities": ["AC", "Balcony"] }
+    ]
+  },
+  {
+    "id": "htl-06",
+    "slug": "lake-view-residency-udaipur",
+    "name": "Lake View Residency",
+    "destinationId": "dest-06",
+    "city": "Udaipur, Rajasthan",
+    "address": "Lake Pichola Road, Udaipur, Rajasthan",
+    "shortDescription": "Lakefront heritage stay with rooftop dining over Lake Pichola.",
+    "description": "Lake View Residency offers rooms with direct views of Lake Pichola and the City Palace, with a rooftop restaurant that's especially memorable at sunset.",
+    "heroImage": "https://picsum.photos/seed/htl-udaipur-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-udaipur-1/800/600", "https://picsum.photos/seed/htl-udaipur-2/800/600"],
+    "starRating": 5,
+    "rating": 4.9,
+    "reviewCount": 267,
+    "pricePerNight": 8500,
+    "amenities": ["Free WiFi", "Lake view", "Rooftop restaurant", "Pool", "Spa"],
+    "roomTypes": [
+      { "id": "rt-11", "name": "Lake View Room", "pricePerNight": 8500, "capacity": 2, "amenities": ["AC", "Lake view"] },
+      { "id": "rt-12", "name": "Royal Suite", "pricePerNight": 14000, "capacity": 3, "amenities": ["AC", "Balcony", "Butler service"] }
+    ]
+  },
+  {
+    "id": "htl-07",
+    "slug": "ghat-view-heritage-hotel-varanasi",
+    "name": "Ghat View Heritage Hotel",
+    "destinationId": "dest-07",
+    "city": "Varanasi, Uttar Pradesh",
+    "address": "Assi Ghat, Varanasi, Uttar Pradesh",
+    "shortDescription": "A heritage stay overlooking the ghats and the Ganges.",
+    "description": "Ghat View Heritage Hotel occupies a restored riverside mansion near Assi Ghat, with rooms overlooking the daily rituals and evening Ganga Aarti below.",
+    "heroImage": "https://picsum.photos/seed/htl-varanasi-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-varanasi-1/800/600", "https://picsum.photos/seed/htl-varanasi-2/800/600"],
+    "starRating": 4,
+    "rating": 4.4,
+    "reviewCount": 133,
+    "pricePerNight": 3800,
+    "amenities": ["Free WiFi", "Ghat view", "Rooftop cafe", "Airport shuttle"],
+    "roomTypes": [
+      { "id": "rt-13", "name": "Ghat View Room", "pricePerNight": 3800, "capacity": 2, "amenities": ["AC", "Ghat view"] },
+      { "id": "rt-14", "name": "Heritage Suite", "pricePerNight": 5600, "capacity": 3, "amenities": ["AC", "Sitting area"] }
+    ]
+  },
+  {
+    "id": "htl-08",
+    "slug": "himalayan-serai-leh",
+    "name": "Himalayan Serai",
+    "destinationId": "dest-08",
+    "city": "Leh, Ladakh",
+    "address": "Fort Road, Leh, Ladakh",
+    "shortDescription": "Traditional Ladakhi-style stay with views of Leh Palace.",
+    "description": "Himalayan Serai combines Ladakhi mud-brick architecture with modern heating and oxygen-enriched rooms, ideal for acclimatizing before onward journeys into the valleys.",
+    "heroImage": "https://picsum.photos/seed/htl-leh-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-leh-1/800/600", "https://picsum.photos/seed/htl-leh-2/800/600"],
+    "starRating": 4,
+    "rating": 4.7,
+    "reviewCount": 87,
+    "pricePerNight": 5500,
+    "amenities": ["Free WiFi", "Oxygen-enriched rooms", "Mountain view", "Restaurant"],
+    "roomTypes": [
+      { "id": "rt-15", "name": "Standard Room", "pricePerNight": 5500, "capacity": 2, "amenities": ["Heater", "Mountain view"] },
+      { "id": "rt-16", "name": "Deluxe Room", "pricePerNight": 7200, "capacity": 2, "amenities": ["Heater", "Oxygen enrichment"] }
+    ]
+  },
+  {
+    "id": "htl-09",
+    "slug": "bay-island-resort-port-blair",
+    "name": "Bay Island Resort",
+    "destinationId": "dest-09",
+    "city": "Port Blair, Andaman Islands",
+    "address": "Marine Hill, Port Blair, Andaman and Nicobar Islands",
+    "shortDescription": "Clifftop resort with private cove access and sea views.",
+    "description": "Bay Island Resort sits on a private headland with sweeping views of the Andaman Sea, a short walk from its own secluded cove and coral reef snorkeling spot.",
+    "heroImage": "https://picsum.photos/seed/htl-andaman-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-andaman-1/800/600", "https://picsum.photos/seed/htl-andaman-2/800/600"],
+    "starRating": 4,
+    "rating": 4.6,
+    "reviewCount": 104,
+    "pricePerNight": 7200,
+    "amenities": ["Free WiFi", "Private cove", "Snorkeling gear", "Restaurant", "Pool"],
+    "roomTypes": [
+      { "id": "rt-17", "name": "Sea View Room", "pricePerNight": 7200, "capacity": 2, "amenities": ["AC", "Sea view"] },
+      { "id": "rt-18", "name": "Cove Villa", "pricePerNight": 11500, "capacity": 4, "amenities": ["AC", "Private deck"] }
+    ]
+  },
+  {
+    "id": "htl-10",
+    "slug": "hilltop-tea-bungalow-darjeeling",
+    "name": "Hilltop Tea Bungalow",
+    "destinationId": "dest-10",
+    "city": "Darjeeling, West Bengal",
+    "address": "Jalapahar Road, Darjeeling, West Bengal",
+    "shortDescription": "Colonial-era bungalow surrounded by tea gardens.",
+    "description": "Hilltop Tea Bungalow is a restored planter's bungalow set among terraced tea gardens, with wraparound verandas offering views of Kanchenjunga on clear mornings.",
+    "heroImage": "https://picsum.photos/seed/htl-darjeeling-hero/1200/800",
+    "images": ["https://picsum.photos/seed/htl-darjeeling-1/800/600", "https://picsum.photos/seed/htl-darjeeling-2/800/600"],
+    "starRating": 4,
+    "rating": 4.7,
+    "reviewCount": 76,
+    "pricePerNight": 4800,
+    "amenities": ["Free WiFi", "Tea garden view", "Fireplace lounge", "Restaurant"],
+    "roomTypes": [
+      { "id": "rt-19", "name": "Garden View Room", "pricePerNight": 4800, "capacity": 2, "amenities": ["Heater", "Garden view"] },
+      { "id": "rt-20", "name": "Kanchenjunga Suite", "pricePerNight": 7000, "capacity": 3, "amenities": ["Heater", "Mountain view", "Sitting area"] }
+    ]
+  }
+]

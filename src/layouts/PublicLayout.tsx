@@ -1,11 +1,12 @@
-import type { ReactNode } from 'react'
-import { Footer, Header } from '@/components/layout'
+import { AnimatedOutlet, Footer, Header } from '@/components/layout'
 
-export function PublicLayout({ children }: { children: ReactNode }) {
+export function PublicLayout() {
   return (
     <div className="flex min-h-dvh flex-col bg-background">
       <Header />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1">
+        <AnimatedOutlet />
+      </main>
       <Footer />
     </div>
   )

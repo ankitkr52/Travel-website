@@ -1,0 +1,152 @@
+[
+  {
+    "id": "itin-01",
+    "slug": "golden-triangle-5-day",
+    "title": "5-Day Golden Triangle",
+    "description": "A compact introduction to Delhi, Agra, and Jaipur's Mughal and Rajput heritage.",
+    "heroImage": "https://picsum.photos/seed/itin-triangle/1200/800",
+    "durationDays": 5,
+    "destinationIds": ["dest-01"],
+    "estimatedCost": 26000,
+    "days": [
+      { "day": 1, "activities": [
+        { "id": "act-01", "time": "10:00", "title": "Arrive in Delhi", "description": "Check-in, visit India Gate.", "cost": 0 }
+      ]},
+      { "day": 2, "activities": [
+        { "id": "act-02", "time": "09:00", "title": "Old & New Delhi Tour", "description": "Red Fort, Qutub Minar, Humayun's Tomb.", "cost": 1500 }
+      ]},
+      { "day": 3, "activities": [
+        { "id": "act-03", "time": "07:00", "title": "Drive to Agra", "description": "Sunrise Taj Mahal visit, Agra Fort.", "destinationId": "dest-01", "cost": 2000 }
+      ]},
+      { "day": 4, "activities": [
+        { "id": "act-04", "time": "09:00", "title": "Agra to Jaipur", "description": "Drive to Jaipur, evening at Hawa Mahal.", "destinationId": "dest-01", "cost": 1800 }
+      ]},
+      { "day": 5, "activities": [
+        { "id": "act-05", "time": "09:00", "title": "Amber Fort & Departure", "description": "Morning fort visit, transfer to airport.", "destinationId": "dest-01", "cost": 1200 }
+      ]}
+    ]
+  },
+  {
+    "id": "itin-02",
+    "slug": "kerala-hills-and-backwaters-7-day",
+    "title": "7-Day Kerala Backwaters & Hills",
+    "description": "From Kochi's colonial streets to Alleppey's houseboats and Munnar's tea hills.",
+    "heroImage": "https://picsum.photos/seed/itin-kerala/1200/800",
+    "durationDays": 7,
+    "destinationIds": ["dest-03"],
+    "estimatedCost": 35000,
+    "days": [
+      { "day": 1, "activities": [
+        { "id": "act-06", "time": "11:00", "title": "Arrive in Kochi", "description": "Fort Kochi walking tour.", "cost": 800 }
+      ]},
+      { "day": 2, "activities": [
+        { "id": "act-07", "time": "10:00", "title": "Kochi to Alleppey", "description": "Board houseboat, cruise begins.", "destinationId": "dest-03", "hotelId": "htl-03", "cost": 6000 }
+      ]},
+      { "day": 3, "activities": [
+        { "id": "act-08", "time": "08:00", "title": "Backwater Cruise", "description": "Full day on the water, village stop.", "destinationId": "dest-03", "cost": 0 }
+      ]},
+      { "day": 4, "activities": [
+        { "id": "act-09", "time": "09:00", "title": "Alleppey to Munnar", "description": "Drive through spice plantations.", "destinationId": "dest-03", "cost": 2500 }
+      ]},
+      { "day": 5, "activities": [
+        { "id": "act-10", "time": "08:00", "title": "Tea Gardens & Eravikulam", "description": "Munnar tea estate tour and national park.", "destinationId": "dest-03", "cost": 1500 }
+      ]},
+      { "day": 6, "activities": [
+        { "id": "act-11", "time": "09:00", "title": "Leisure Day", "description": "Optional spice market visit and spa.", "cost": 2000 }
+      ]},
+      { "day": 7, "activities": [
+        { "id": "act-12", "time": "10:00", "title": "Return to Kochi", "description": "Drive back, departure.", "cost": 2500 }
+      ]}
+    ]
+  },
+  {
+    "id": "itin-03",
+    "slug": "goa-relaxation-4-day",
+    "title": "4-Day Goa Relaxation",
+    "description": "A short, easy beach break across North Goa's best stretches.",
+    "heroImage": "https://picsum.photos/seed/itin-goa/1200/800",
+    "durationDays": 4,
+    "destinationIds": ["dest-02"],
+    "estimatedCost": 16000,
+    "days": [
+      { "day": 1, "activities": [
+        { "id": "act-13", "time": "12:00", "title": "Arrive & Beach Evening", "description": "Check-in, sunset at Baga Beach.", "destinationId": "dest-02", "hotelId": "htl-02", "cost": 1000 }
+      ]},
+      { "day": 2, "activities": [
+        { "id": "act-14", "time": "10:00", "title": "Old Goa Churches", "description": "Basilica of Bom Jesus, Se Cathedral.", "destinationId": "dest-02", "cost": 800 }
+      ]},
+      { "day": 3, "activities": [
+        { "id": "act-15", "time": "09:00", "title": "South Goa Day Trip", "description": "Palolem and Colva beaches.", "destinationId": "dest-02", "cost": 2200 }
+      ]},
+      { "day": 4, "activities": [
+        { "id": "act-16", "time": "11:00", "title": "Leisure & Departure", "description": "Last swim, transfer to airport.", "cost": 0 }
+      ]}
+    ]
+  },
+  {
+    "id": "itin-04",
+    "slug": "rajasthan-royals-6-day",
+    "title": "6-Day Rajasthan Royals",
+    "description": "Jaipur and Udaipur's forts, palaces, and lakes in one royal sweep.",
+    "heroImage": "https://picsum.photos/seed/itin-rajasthan/1200/800",
+    "durationDays": 6,
+    "destinationIds": ["dest-01", "dest-06"],
+    "estimatedCost": 34000,
+    "days": [
+      { "day": 1, "activities": [
+        { "id": "act-17", "time": "11:00", "title": "Arrive in Jaipur", "description": "Check-in, evening at leisure.", "destinationId": "dest-01", "hotelId": "htl-01", "cost": 0 }
+      ]},
+      { "day": 2, "activities": [
+        { "id": "act-18", "time": "09:00", "title": "Jaipur Forts", "description": "Amber Fort, Nahargarh Fort.", "destinationId": "dest-01", "cost": 1800 }
+      ]},
+      { "day": 3, "activities": [
+        { "id": "act-19", "time": "09:00", "title": "Drive to Udaipur", "description": "Scenic drive, evening free.", "destinationId": "dest-06", "hotelId": "htl-06", "cost": 3000 }
+      ]},
+      { "day": 4, "activities": [
+        { "id": "act-20", "time": "09:00", "title": "Udaipur City Palace", "description": "City Palace complex and museum.", "destinationId": "dest-06", "cost": 1200 }
+      ]},
+      { "day": 5, "activities": [
+        { "id": "act-21", "time": "17:00", "title": "Lake Pichola Boat Ride", "description": "Sunset cruise to Jag Mandir.", "destinationId": "dest-06", "cost": 1500 }
+      ]},
+      { "day": 6, "activities": [
+        { "id": "act-22", "time": "10:00", "title": "Departure", "description": "Transfer to Udaipur airport.", "cost": 0 }
+      ]}
+    ]
+  },
+  {
+    "id": "itin-05",
+    "slug": "himalayan-adventure-8-day",
+    "title": "8-Day Himalayan Adventure",
+    "description": "Manali's adventure sports paired with the high-altitude drama of Leh-Ladakh.",
+    "heroImage": "https://picsum.photos/seed/itin-himalaya/1200/800",
+    "durationDays": 8,
+    "destinationIds": ["dest-04", "dest-08"],
+    "estimatedCost": 52000,
+    "days": [
+      { "day": 1, "activities": [
+        { "id": "act-23", "time": "12:00", "title": "Arrive in Manali", "description": "Check-in, Old Manali evening walk.", "destinationId": "dest-04", "hotelId": "htl-04", "cost": 0 }
+      ]},
+      { "day": 2, "activities": [
+        { "id": "act-24", "time": "09:00", "title": "Solang Valley", "description": "Paragliding and cable car.", "destinationId": "dest-04", "cost": 3500 }
+      ]},
+      { "day": 3, "activities": [
+        { "id": "act-25", "time": "07:00", "title": "Manali to Leh", "description": "Scenic flight or road transfer, rest for acclimatization.", "destinationId": "dest-08", "hotelId": "htl-08", "cost": 8000 }
+      ]},
+      { "day": 4, "activities": [
+        { "id": "act-26", "time": "10:00", "title": "Leh Local Sightseeing", "description": "Leh Palace, Shanti Stupa.", "destinationId": "dest-08", "cost": 1000 }
+      ]},
+      { "day": 5, "activities": [
+        { "id": "act-27", "time": "07:00", "title": "Nubra Valley", "description": "Drive via Khardung La, camel safari.", "destinationId": "dest-08", "cost": 4000 }
+      ]},
+      { "day": 6, "activities": [
+        { "id": "act-28", "time": "07:00", "title": "Pangong Lake", "description": "Drive to Pangong, overnight by the lake.", "destinationId": "dest-08", "cost": 4500 }
+      ]},
+      { "day": 7, "activities": [
+        { "id": "act-29", "time": "09:00", "title": "Return to Leh", "description": "Drive back via Chang La.", "destinationId": "dest-08", "cost": 2000 }
+      ]},
+      { "day": 8, "activities": [
+        { "id": "act-30", "time": "10:00", "title": "Departure", "description": "Transfer to Leh airport.", "cost": 0 }
+      ]}
+    ]
+  }
+]

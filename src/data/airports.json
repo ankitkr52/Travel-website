@@ -1,0 +1,14 @@
+[
+  { "code": "DEL", "city": "Delhi", "name": "Indira Gandhi International Airport", "state": "Delhi" },
+  { "code": "BOM", "city": "Mumbai", "name": "Chhatrapati Shivaji Maharaj International Airport", "state": "Maharashtra" },
+  { "code": "GOI", "city": "Goa", "name": "Dabolim Airport", "state": "Goa" },
+  { "code": "JAI", "city": "Jaipur", "name": "Jaipur International Airport", "state": "Rajasthan" },
+  { "code": "COK", "city": "Kochi", "name": "Cochin International Airport", "state": "Kerala" },
+  { "code": "IXL", "city": "Leh", "name": "Kushok Bakula Rimpochee Airport", "state": "Ladakh" },
+  { "code": "VNS", "city": "Varanasi", "name": "Lal Bahadur Shastri Airport", "state": "Uttar Pradesh" },
+  { "code": "UDR", "city": "Udaipur", "name": "Maharana Pratap Airport", "state": "Rajasthan" },
+  { "code": "IXB", "city": "Bagdogra", "name": "Bagdogra Airport", "state": "West Bengal" },
+  { "code": "IXZ", "city": "Port Blair", "name": "Veer Savarkar International Airport", "state": "Andaman and Nicobar Islands" },
+  { "code": "CCU", "city": "Kolkata", "name": "Netaji Subhas Chandra Bose International Airport", "state": "West Bengal" },
+  { "code": "DED", "city": "Dehradun", "name": "Jolly Grant Airport", "state": "Uttarakhand" }
+]
