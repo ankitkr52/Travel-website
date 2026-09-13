@@ -21,4 +21,12 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  {
+    // shadcn-style primitives export a cva() variants function alongside their component
+    // (button.tsx, badge.tsx) — not an app component, so HMR component-only isolation doesn't apply.
+    files: ['src/components/ui/**/*.tsx'],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
+  },
 ])

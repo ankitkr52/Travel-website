@@ -4,7 +4,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Custom breakpoint scale (docs/design/RESPONSIVE.md) — overrides Tailwind's defaults,
-   which use the same names for different pixel values. */
+   which use the same names for different pixel values. Design tokens (docs/design/DESIGN-SYSTEM.md)
+   live here too so Tailwind generates utilities from them (bg-primary, text-text-muted, etc.);
+   light-mode values below are the doc's recommended starting palette (Terracotta + Slate),
+   not yet signed off — swap here once finalized. */
 @theme {
   --breakpoint-sm: 22.5rem; /* 360px */
   --breakpoint-md: 40rem; /* 640px */
@@ -14,11 +17,7 @@
   --breakpoint-3xl: 96rem; /* 1536px */
 
   --radius: 10px; /* shape-consistency lock: one radius for buttons/cards/inputs/modals */
-}
 
-/* Design tokens (docs/design/DESIGN-SYSTEM.md). Values are the doc's recommended starting
-   palette (Terracotta + Slate), not yet signed off — swap here once finalized. */
-:root {
   --color-primary: #b5502f;
   --color-secondary: #64748b;
   --color-background: #f8fafc;
@@ -30,6 +29,12 @@
   --color-success: #4d7c5f;
   --color-error: #b3403a;
   --color-warning: #b8873a;
+  /* Readable text color for content placed directly on --color-primary (WCAG AA 4.5:1) —
+     white fails that ratio against the dark-mode primary below, so it can't be a static value. */
+  --color-on-primary: #ffffff;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
 }
 
 /* Dark mode is designed, not inverted (docs/design/DESIGN-SYSTEM.md, G7) — off-black/off-white,
@@ -46,9 +51,45 @@
   --color-success: #6fa383;
   --color-error: #d97771;
   --color-warning: #d9a75c;
+  --color-on-primary: #101114;
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-text-primary);
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
