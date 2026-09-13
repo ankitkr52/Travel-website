@@ -6,7 +6,8 @@ export function AuthGuard() {
   const location = useLocation()
 
   if (!session) {
-    const redirect = encodeURIComponent(location.pathname)
+    const attemptedPath = `${location.pathname}${location.search}${location.hash}`
+    const redirect = encodeURIComponent(attemptedPath)
     return <Navigate to={`/login?redirect=${redirect}`} replace />
   }
 

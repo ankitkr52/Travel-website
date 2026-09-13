@@ -1,7 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { AnimatePresence } from 'framer-motion'
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ThemeProvider } from '@/components/layout'
 import { Toaster } from '@/components/ui'
 import { AdminGuard, AuthGuard, GuestGuard } from '@/components/auth'
@@ -106,73 +105,57 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <Suspense fallback={null}>
-            <AppRoutes />
+            <Routes>
+              <Route element={<PublicLayout />}>
+                <Route index element={<HomePage />} />
+                <Route path="destinations" element={<DestinationsListingPage />} />
+                <Route path="destinations/:slug" element={<DestinationDetailPage />} />
+                <Route path="packages" element={<PackagesListingPage />} />
+                <Route path="packages/:slug" element={<PackageDetailPage />} />
+                <Route path="hotels" element={<HotelsListingPage />} />
+                <Route path="hotels/:slug" element={<HotelDetailPage />} />
+                <Route path="flights" element={<FlightsPage />} />
+                <Route path="itinerary" element={<ItineraryListingPage />} />
+                <Route path="gallery" element={<GalleryPage />} />
+                <Route path="contact" element={<ContactPage />} />
+
+                <Route element={<GuestGuard />}>
+                  <Route path="login" element={<LoginPage />} />
+                  <Route path="register" element={<RegisterPage />} />
+                </Route>
+
+                <Route element={<AuthGuard />}>
+                  <Route path="packages/:slug/book" element={<PackageBookingPage />} />
+                  <Route path="hotels/:slug/book" element={<HotelBookingPage />} />
+                  <Route path="flights/book" element={<FlightBookingPage />} />
+                  <Route path="itinerary/builder" element={<ItineraryBuilderPage />} />
+                  <Route path="itinerary/:id" element={<ItineraryViewPage />} />
+                  <Route path="profile" element={<ProfilePage />} />
+                  <Route path="profile/bookings" element={<ProfileBookingsPage />} />
+                  <Route path="profile/itineraries" element={<ProfileItinerariesPage />} />
+                </Route>
+
+                <Route path="404" element={<NotFoundPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+              </Route>
+
+              <Route path="admin" element={<AdminGuard />}>
+                <Route element={<AdminLayout />}>
+                  <Route index element={<AdminDashboardPage />} />
+                  <Route path="users" element={<AdminUsersPage />} />
+                  <Route path="bookings" element={<AdminBookingsPage />} />
+                  <Route path="destinations" element={<AdminDestinationsPage />} />
+                  <Route path="packages" element={<AdminPackagesPage />} />
+                  <Route path="hotels" element={<AdminHotelsPage />} />
+                  <Route path="reviews" element={<AdminReviewsPage />} />
+                </Route>
+              </Route>
+            </Routes>
           </Suspense>
         </BrowserRouter>
         <Toaster />
       </QueryClientProvider>
     </ThemeProvider>
-  )
-}
-
-/**
- * Routes are keyed by pathname and given an explicit `location` so the exiting
- * tree stays frozen at its own location while AnimatePresence holds it for the
- * exit transition — otherwise it would re-render against the new location
- * mid-exit and route guards would redirect using the wrong path.
- */
-function AppRoutes() {
-  const location = useLocation()
-
-  return (
-    <AnimatePresence mode="wait" initial={false}>
-      <Routes location={location} key={location.pathname}>
-        <Route element={<PublicLayout />}>
-          <Route index element={<HomePage />} />
-          <Route path="destinations" element={<DestinationsListingPage />} />
-          <Route path="destinations/:slug" element={<DestinationDetailPage />} />
-          <Route path="packages" element={<PackagesListingPage />} />
-          <Route path="packages/:slug" element={<PackageDetailPage />} />
-          <Route path="hotels" element={<HotelsListingPage />} />
-          <Route path="hotels/:slug" element={<HotelDetailPage />} />
-          <Route path="flights" element={<FlightsPage />} />
-          <Route path="itinerary" element={<ItineraryListingPage />} />
-          <Route path="gallery" element={<GalleryPage />} />
-          <Route path="contact" element={<ContactPage />} />
-
-          <Route element={<GuestGuard />}>
-            <Route path="login" element={<LoginPage />} />
-            <Route path="register" element={<RegisterPage />} />
-          </Route>
-
-          <Route element={<AuthGuard />}>
-            <Route path="packages/:slug/book" element={<PackageBookingPage />} />
-            <Route path="hotels/:slug/book" element={<HotelBookingPage />} />
-            <Route path="flights/book" element={<FlightBookingPage />} />
-            <Route path="itinerary/builder" element={<ItineraryBuilderPage />} />
-            <Route path="itinerary/:id" element={<ItineraryViewPage />} />
-            <Route path="profile" element={<ProfilePage />} />
-            <Route path="profile/bookings" element={<ProfileBookingsPage />} />
-            <Route path="profile/itineraries" element={<ProfileItinerariesPage />} />
-          </Route>
-
-          <Route path="404" element={<NotFoundPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Route>
-
-        <Route path="admin" element={<AdminGuard />}>
-          <Route element={<AdminLayout />}>
-            <Route index element={<AdminDashboardPage />} />
-            <Route path="users" element={<AdminUsersPage />} />
-            <Route path="bookings" element={<AdminBookingsPage />} />
-            <Route path="destinations" element={<AdminDestinationsPage />} />
-            <Route path="packages" element={<AdminPackagesPage />} />
-            <Route path="hotels" element={<AdminHotelsPage />} />
-            <Route path="reviews" element={<AdminReviewsPage />} />
-          </Route>
-        </Route>
-      </Routes>
-    </AnimatePresence>
   )
 }
 
