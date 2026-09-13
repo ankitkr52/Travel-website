@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 export interface TabItem {
   value: string
   label: string
+  content: React.ReactNode
 }
 
 export interface TabsProps {
@@ -37,6 +38,11 @@ export function Tabs({ items, activeTab, onChange }: TabsProps) {
           </TabsPrimitive.Trigger>
         ))}
       </TabsPrimitive.List>
+      {items.map((item) => (
+        <TabsPrimitive.Content key={item.value} value={item.value}>
+          {item.content}
+        </TabsPrimitive.Content>
+      ))}
     </TabsPrimitive.Root>
   )
 }
